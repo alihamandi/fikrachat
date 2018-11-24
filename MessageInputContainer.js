@@ -3,29 +3,36 @@ import styled from 'styled-components';
 import Context from './Context'
 
 let MessageInput = styled.input`
-width : 80%;
-border : none;
-background-color:#f5f5f5;
-height: 50px;
-width:1000px;
-padding:20px;
-
+  width: 90%;
+  padding: 0px;
+  margin: 0px;
+  height: 60px;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
 `
-
 let Button = styled.button`
-border-radius:4px;
-background-color:#466a83;
-border:none;
-
-
+  border-radius: 5px;
+  background-color: #466AB3;
+  color: white;
+  width: 9%;
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.4rem;
+  border:none;
+  
 `
 
-let Container = styled.div `
-display:flex;
-position:fixed;
-bottom:0px;
-margin: 0 5%;
-
+let Container = styled.div`
+  display: flex;
+  width: 90%;
+  border: 1px solid #000;
+  position: fixed;
+  padding: 5px;
+  height: 60px;
+  bottom: 0px;
+  margin: 10px 5%;
+  border-radius: 5px;
 `
 
 

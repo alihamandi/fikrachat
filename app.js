@@ -8,16 +8,7 @@ import firebase from 'firebase'
 
 
 
-// Initialize Firebase
-var config = {
-    apiKey: "AIzaSyDthiEU7g3U586BhCDg1m736Omq-2pxcrk",
-    authDomain: "fikrachat-4648f.firebaseapp.com",
-    databaseURL: "https://fikrachat-4648f.firebaseio.com",
-    projectId: "fikrachat-4648f",
-    storageBucket: "fikrachat-4648f.appspot.com",
-    messagingSenderId: "771052558748"
-};
-firebase.initializeApp(config);
+
 
 
 
@@ -53,9 +44,6 @@ class App extends Component {
                         firebase.firestore().collection('msgs').add({
                             date: Date.now(),
                             content: this.state.messageContent
-                        })
-                        this.setState({
-                            messageContent: ''
                         })
 
 

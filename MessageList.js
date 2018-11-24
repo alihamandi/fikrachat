@@ -3,7 +3,11 @@ import styled from 'styled-components';
 import Context from './Context'
 
 let Msgs = styled.div `
+ font-family:arial;
  font-size:2rem;
+ padding-bottom:60px;
+ padding: 0 5%;
+ hieght:70vh;
 `
 
 
